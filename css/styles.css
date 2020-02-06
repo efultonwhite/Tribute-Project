@@ -5,7 +5,7 @@ body {
   margin: 2%;
 }
 
-main {
+#main {
   background-color: #e8e2e2;
   border-radius: 1px;
   padding: 10px;
@@ -16,7 +16,7 @@ header {
   font-family: 'Bebas Neue', cursive;
 }
 
-h1 {
+#title {
   font-size: 65px;
 }
 
@@ -25,45 +25,98 @@ h1::after {
   font-size: 27px;
 }
 
-figure {
-  text-align: center;
+
+
+
+#D {
+  display: inline-block;
+
+  width: 23px;
 }
 
-figcaption {
+#img-o {
+  display: inline-block;
+
+  width: 37.5px;
+}
+
+#N {
+  display: inline-block;
+
+  width: 28px;
+}
+
+#img-div {
+  text-align: center;
+  border-bottom:  solid 2px #000b3d;
+
+
+}
+
+#image {
+    max-width: 250px;
+    width: 100%;
+    display: block;
+    margin: auto; <!-- center the image -->
+}
+
+#image {
+  border: solid #000b3d 5px;
+  border-radius: 2px;
+  box-shadow: 4px 5px 20px 4px gray;
+
+
+}
+
+#img-caption {
   font-family: 'Slabo 27px', serif;
   font-size: 14px;
+  margin-top: 20px;
+}
+
+#tribute-info {
+  padding-bottom: 10px;
+    padding-top: 100px;
+    margin-top: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 100px;
+    border-radius: 2px;
+    background-color: #fdfcfc;
 }
 p {
   font-family: 'Slabo 27px', serif;
   line-height: 23px;
 }
 
-h2 {
+#headline {
   font-family: 'Alfa Slab One', cursive;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 23px;
   border: solid 2px #f35b25;
-  width: 15%;
+  width: auto;
   padding: 4px;
   text-align: center;
-  margin-left: 40%;
+
   line-height: 3px;
+
 }
 
-section {
-  background-color: #fdfcfc;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 2px;
+#tribute-link {
+  text-decoration: none;
 }
 
 @media (max-width: 460px) {
   #main {
     margin: 0;
   }
+}
 
   @media (max-width: 460px) {
   h1 {
     font-size: 3.5rem;
     line-height: 1.2;
   }
+}
